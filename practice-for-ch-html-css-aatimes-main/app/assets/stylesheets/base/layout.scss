@@ -25,10 +25,15 @@ button {
 	// text-transform:
 	// font-size:
 	// text-align:
+	background-color: $dark-blue;
+	color: white;
+	border-color: $darkest-blue;
+	border-radius: 3px;
+	padding: 4px;
 }
 
 button:hover {
-	// background-color:
+	background-color: gray
 	// border-color:
 }
 

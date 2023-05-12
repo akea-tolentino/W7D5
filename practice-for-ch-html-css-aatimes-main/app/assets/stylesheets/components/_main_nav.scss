@@ -1,21 +1,50 @@
 @use '../variables' as *;
 
 .main-nav {
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.left-nav, .right-nav {
+  display: flex;
+}
+
+.left-nav {
+  justify-content: left;
+}
+
+.right-nav {
+  justify-content: right;
 }
 
 .left-nav > ul,
-.right-nav > ul {
-  
+.right-nav > ul { 
+  display: flex;
+  // padding: 3px;
+  align-items: center;
+}
+
+
+
+button {
+  background-color: $dark-blue;
+  color: white;
+  border-color: $darkest-blue;
+  border-radius: 3px;
+  padding: 4px;
 }
 
 .left-nav {
 
-  > ul {
+  > ul { 
+    display: flex;
+    align-items: center;
     > li {
       
     }
-  }
+  } 
 
   span {
     
@@ -25,7 +54,7 @@
 .right-nav  {
   > ul {
     > li {
-      
+      padding: 5px;
     }
 
     > li:last-of-type {
@@ -43,4 +72,14 @@
   
 }
 
+#gear {
+  color: black
+}
+
+#gear:hover {
+  color: gray
+}
     
+#sections-sidebar-btn:hover, #search-modal-btn:hover {
+  color: gray;
+}
