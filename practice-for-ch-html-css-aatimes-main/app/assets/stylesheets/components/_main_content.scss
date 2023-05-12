@@ -1,0 +1,13 @@
+@use '../variables' as *;
+
+div > ul {
+    list-style: circle;
+}
+
+h2 > a {
+    color:black;
+}
+
+footer > a {
+    color: $blue;
+}
